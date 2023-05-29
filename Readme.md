@@ -2,11 +2,11 @@
 
 - one command installer
 ``` bash
-git clone https://github.com/samsesh/softether-install && cd softether-install &&  bash install.sh
+git clone https://github.com/Parham2004/softether-install && cd softether-install &&  bash install.sh
 ```
 - install use tmux on one command 
 ``` bash
-tmux -s softetherInstaller "git clone https://github.com/samsesh/softether-install && cd softether-install &&  bash install.sh"
+tmux -s softetherInstaller "git clone https://github.com/Parham2004/softether-install && cd softether-install &&  bash install.sh"
 ```
 >  It is better to use tmux so that if the ssh connection with the server is interrupted, the command will not be broken, If the connection is interrupted, you can return to the installation page with the following command after connecting to the server
 ```bash
@@ -17,7 +17,7 @@ tmux a -d -t softether
 - To use it, just do the following
 1. clone project :
 ``` bash 
-git clone https://github.com/samsesh/softether-install.git
+git clone https://github.com/Parham2004/softether-install.git
 ```
 2. Go to the project directory :
 ``` bash 
